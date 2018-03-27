@@ -3,16 +3,24 @@
 ## 目录
 
 * core：内核代码
-  * index.html	//搜索参数填写
-  * request.php  //url生成，代理，反爬虫，下载  php-phantomjs
+  * index.html	//搜索参数填写,action => getHtml.php
+
+  * getHtml.php  //url生成，下载页面，代理，de反爬虫
+
+  * getWallpaper.php  //用simple_html_dom分析获取图片
+
+  *  commander.php  //控制器
 * lib：第三方库
+  * php-phantomjs
+  * phantomjs
+  * simple_html_dom.php
 * download：下载的资源
 * reference：参考资料
 * remdme.md
 
 ## 思路
 
-* 用phantomjs提取页面
+* 用phantomjs提取url
 * 用simple_html_dom分析页面
 * ​
 
