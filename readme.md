@@ -9,7 +9,7 @@
 
   * getWallpaper.php  //用simple_html_dom分析获取图片
 
-  *  commander.php  //控制器
+  * commander.php  //控制器
 * lib：第三方库
   * php-phantomjs
   * phantomjs
@@ -17,6 +17,8 @@
 * download：下载的资源
 * reference：参考资料
 * remdme.md
+* composer.json
+* composer.lock
 
 ## 思路
 
